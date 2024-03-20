@@ -1,5 +1,5 @@
 ## List all available security-group ids
-aws ec2 describe-security-groups
+```bash aws ec2 describe-security-groups ```
 ## create new security group
 aws ec2 describe-vpcs
 aws ec2 create-security-group --group-name my-sg --description "My security group" --vpc-id
