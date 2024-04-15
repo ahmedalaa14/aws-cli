@@ -1,0 +1,9 @@
+Resorcues:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0c55b159cbfafe1f0
+      InstanceType: t2.micro
+      KeyName: mykey
+      SecurityGroups:
+        - my-sg
